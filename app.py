@@ -233,7 +233,7 @@ import streamlit as st
 import pandas as pd
 
 # Load environment variables from Streamlit secrets
-openai_api_key = st.secrets["OPENAI_API_KEY"]
+openai_api_key = "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"
 
 # Initialize session state for conversation history and data
 if 'history' not in st.session_state:
